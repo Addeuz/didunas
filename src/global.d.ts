@@ -33,3 +33,5 @@ export interface EditFieldAttributes {
 	editAnswerType: 'numbers' | 'twoColors' | 'threeColors';
 	editTask: Task;
 }
+
+export interface Answer { answer: string; rightAnswer: string; time: number }

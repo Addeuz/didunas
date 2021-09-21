@@ -49,14 +49,14 @@
 	class="gap-3 flex flex-col lg:flex-row justify-between items-center mx-2 lg:h-screen lg:-mt-24 "
 >
 	<button
-		on:click={() => goto('/running/enumeration')}
+		on:click={() => goto('/running/Enumeration')}
 		class="flex flex-col items-center justify-center bg-gray-200 hover:bg-gray-300 w-60 h-52 rounded-xl"
 	>
 		<img class="rounded-xl mb-3 w-48" src="/enumerationTask.png" alt="Enumeration task" />
 		<span>Enumeration tasks</span>
 	</button>
 	<button
-		on:click={() => goto('/running/pattern-recognition')}
+		on:click={() => goto('/running/PatternRecognition')}
 		class="flex flex-col items-center justify-center bg-gray-200 hover:bg-gray-300 w-60 h-52 rounded-xl"
 	>
 		<img
@@ -67,14 +67,14 @@
 		<span>Pattern recognition tasks</span>
 	</button>
 	<button
-		on:click={() => goto('/running/number-line')}
+		on:click={() => goto('/running/NumberLine')}
 		class="flex flex-col items-center justify-center bg-gray-200 hover:bg-gray-300 w-60 h-52 rounded-xl"
 	>
 		<img class="rounded-xl mb-3 w-48" src="/numberLineTask.png" alt="Number line tasks" />
 		<span>Number line tasks</span>
 	</button>
 	<button
-		on:click={() => goto('/running/color')}
+		on:click={() => goto('/running/Color')}
 		class="flex flex-col items-center justify-center bg-gray-200 hover:bg-gray-300 w-60 h-52 rounded-xl"
 	>
 		<img class="rounded-xl mb-3 w-48" src="/colorTask.png" alt="Enumeration task" />
